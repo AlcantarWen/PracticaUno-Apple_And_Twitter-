@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="../css/cascada1.css"/>
+        <link href="../Flat-UI-master/css/flat-ui.css" rel="stylesheet"> 
+        <link href="../Flat-UI-master/bootstrap/css/bootstrap.css" rel="stylesheet">
+    </head>
+    <body background="../imagenes/imagen2.jpg">
+
+    <center><h1>Ingreso de Datos de Actividad</h1></center> 
+
+    <form id="form2" action="" method="get">
+        <label class="label1" for="id_eve">N&uacute;mero de Evento</label><br>
+        <select>
+            <option value="1">1</option>
+            <option value="2">2</option>        
+        </select>
+        <br>
+        <label class="label1" for="nombreact">Nombre</label><br>
+        <input type="text" value="" placeholder="Inactive" class="span3" id="nombreact"/>
+
+        <label class="label1" for="lugares">Lugares Disponibles</label><br>
+        <input id="lugares" type="number" required="required"/><br>
+
+        <label class="label1" for="precio">Precio</label><br>
+        <input id="precio" type="number"  required="required"/><br>
+
+        <label class="label1" for="descripcion">Descripci&oacute;</label><br>
+        <textarea id="descripcion" cols="50" rows="5" required="required"></textarea><br>
+
+        <label class="label1">N&uacute;mero de Instructor</label><br>
+        <select id="intructor">
+            <option value="1">1</option>
+            <option value="2">2</option>        
+        </select>
+        <br>
+        <input  type="submit" value="Capturar" class="span3"/><br>
+        <a href="index.html">Regresar menu</a>
+    </form>
+</body>
+</html>
